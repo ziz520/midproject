@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3saLtGoKUqorfPgwC2VAMTe849dSKOJM6kA&usqp=CAU"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <nav class="navbar">
+     <div class="navbar_container">
+         <a href="/" id="navbar_logo"><i class="fas fa-shopping-cart"></i>&nbsp</i> Online store</a>
+         <div class="navbar_toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+         </div>
+         <ul class="navbar_menu">
+         <li class="navbar_item">
+        <a href="/index.html" class="navbar_links">Home</a>
+         </li>
+         <li class="navbar_item">
+            <a href="/New Techno.html" class="navbar_links">New</a>
+            </li>
+            <li class="navbar_item">
+                <a href="/Products.html" class="navbar_links">Products</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/sale.html" class="navbar_links">Sale</a>
+                    </li>
+                <li class="navbar_item">
+                    <a href="/About Us.html" class="navbar_links">Contact</a>
+                    </li>
+                <li class="navbar_btn">
+                    <a href="/sign.html" class="button">Sign Up</a></li>
+         </ul> 
+     </div>   
+ </nav>
+
+ <script src="app.js"></script>
+ <section class="about">
+    <div class="container">
+        <h1 class="title">Sale</h1>
+        <div class="wrapper">
+            <div class="content">
+                <p><b>What do you need to do to get a discount?</b></p><br>
+                
+              <p><i class="fas fa-check-circle"></i>Register on our website</p>
+             <p><i class="fas fa-check-circle"></i>Fill out the profile in your personal account (information about the organization or the master)</p>
+            <p><i class="fas fa-check-circle"></i>Inform us about successful registration as a partner by e-mail.</p>
+            </section>
+                    <div class="product-container">
+                        <div class="p-box">
+                   <img src="https://technoshop-bk.ru/wa-data/public/shop/products/27/31/13127/images/8032/8032.0x460.jpg" alt=""/>
+                   <p>Xprinter XP-237B 20-48mm USB+BT </p>
+                    <a href="#" class="buy-btn">Buy</a>
+                           </div>
+                           <div class="p-box">
+                            <img src="https://fora.kz/images/content/products/614629/samsung-ue32t4500auxce_5ec3a9ca1eabd.jpg" alt=""/>
+                            <p>Samsung UE32T4500AUXCE </p>
+                             <a href="#" class="buy-btn">Buy</a>
+                                    </div>
+                                    <div class="p-box">
+                                        <img src="https://www.technodom.kz/media/catalog/product/cache/1366e688ed42c99cd6439df4031862c6/0/d/0d3b4837a905f3f17c1b3386fbdba172145cf7c5_217129_1xxc.jpg" alt=""/>
+                                        <p> Samsung Galaxy A31 64GB</p>
+                                         <a href="#" class="buy-btn">Buy</a>
+                                                </div>
+                                                <div class="p-box">
+                                                    <img src="https://www.technodom.kz/media/catalog/product/cache/1366e688ed42c99cd6439df4031862c6/0/e/0ebaffb60ae2c4f0f117a426dfbaef8f9b2ed679_229858_3.jpg" alt=""/>
+                                                    <p>Asus VivoBook M509DA Ryzen 3 3250U </p>
+                                                     <a href="#" class="buy-btn">Buy</a>
+                                                            </div>
+                                                            <div class="p-box">
+                                                                <img src="https://www.technodom.kz/media/catalog/product/cache/1366e688ed42c99cd6439df4031862c6/b/1/b13153e4ef70d4c41c5f6709a04936a520314ad6_229555_1.jpg" alt=""/>
+                                                                <p>Blender Philips HR-2536/00 </p>
+                                                                 <a href="#" class="buy-btn">Buy</a>
+                                                                        </div>
+                                                                    </section>
+
+                <style>
+                    *{
+                        margin: 0px;
+                        padding: 0px;
+                        box-sizing: border-box;
+                        line-height: 1.5;
+                       
+                    }
+                    body{
+                        min-height: 100vh;
+                        width: 100%;
+                       
+                    
+                    }
+                    .container{
+                        width: 80%;
+                        margin: auto;
+                        padding-top: 90px;
+                    }
+                    .container .title{
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 70px;
+                        color: black;
+                       
+                    }
+                    .container .title::after{
+                        content:"";
+                        width: 180px;
+                        height: 5px;
+                        background-color: #ff0000;
+                        border-radius: 10px;
+                        display: block;
+                    }
+                    .wrapper{
+                        margin: 50px auto;
+                    }
+                    .content{
+                        width: 100%;
+                        float: left;
+                        text-align: left;
+                    }
+                    .content p{
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 20px;
+                    }
+                    body{
+        min-height: 100vh;
+        width: 100%;
+        background-color: #fff;
+    }
+.p-heading{
+    margin: 230px;
+    text-shadow: 2px 2px 10px rgb(141, 134, 148);
+}
+.p-heading h3{
+    margin: auto;
+    margin-top: -30px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(36, 1, 36);
+    font-family:'Times New Roman', Times, serif;
+}
+.p-heading h3::after{
+        content:"";
+        width: 300px;
+        height: 5px;
+        background-color: #e75682;
+        border-radius: 30px;
+        display: block;
+        margin: auto;
+    }
+.product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 10px;
+    width: 100%;
+}
+.p-box{
+    display: flex;
+    width: 400px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    position: relative;
+    margin: 40px;
+}
+.p-box img{
+    height: 280px;
+  
+}
+.p-box p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 0.9rem;
+font-weight: 600;
+color: rgb(35, 37, 37);
+
+}
+.p-box:hover{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 30px rgb(170, 98, 221);
+}
+.buy-btn{
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: linear-gradient(120deg,#6b60ec 20%,#a166f4 );
+    display: none;
+    animation: fade 0.2s;
+}
+.p-box:hover .buy-btn{
+    display: flex;
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+</style>
+
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3saLtGoKUqorfPgwC2VAMTe849dSKOJM6kA&usqp=CAU"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <nav class="navbar">
+     <div class="navbar_container">
+         <a href="/" id="navbar_logo"><i class="fas fa-shopping-cart"></i>&nbsp</i> Online store</a>
+         <div class="navbar_toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+         </div>
+         <ul class="navbar_menu">
+         <li class="navbar_item">
+        <a href="/index.html" class="navbar_links">Home</a>
+         </li>
+         <li class="navbar_item">
+            <a href="/New Techno.html" class="navbar_links">New</a>
+            </li>
+            <li class="navbar_item">
+                <a href="/Products.html" class="navbar_links">Products</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/sale.html" class="navbar_links">Sale</a>
+                    </li>
+                <li class="navbar_item">
+                    <a href="/About Us.html" class="navbar_links">Contact</a>
+                    </li>
+                <li class="navbar_btn">
+                    <a href="/sign.html" class="button">Sign Up</a></li>
+         </ul> 
+     </div>   
+ </nav>
+ <style>
+    body {
+      background-image: url('https://img3.akspic.ru/originals/0/4/0/7/4/147040-siren-nebo-tekstura-bumaga-fioletovyj-2500x1200.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+
+                 <div class="form-container">
+                 <div class="form-btn">
+                <div class="button-box">
+                    <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+      <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <form id="login" class="input-group">
+              <input type="text" class="input-field" placeholder="User Id" required>
+              <input type="text" class="input-field" placeholder="Enter Password" required>   
+              <input type="checkbox" class="check-box"><span><font color="grey">Remember Password</font></span> 
+              <button type="submit" class="submit-btn">Log In</button>
+                </form>
+
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>   
+                    <input type="checkbox" class="check-box"><span><font color="grey">I agree to the terms & conditions</font></span> 
+                    <button type="submit" class="submit-btn">Register</button>
+                      </form>
+
+                 </div>
+                 </div>
+                 <script>
+                     var x = document.getElementById("login");
+                     var y = document.getElementById("register");
+                     var z = document.getElementById("btn");
+
+                     function register(){
+                         x.style.left = "-400px";
+                         y.style.left = "50px";
+                         z.style.left = "110px";
+                     }
+                     function login(){
+                         x.style.left = "50px";
+                         y.style.left = "450px";
+                         z.style.left = "0";
+                     }
+                 </script>
+ <script src="app.js"></script>
+</body>
+</html>

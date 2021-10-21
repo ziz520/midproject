@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3saLtGoKUqorfPgwC2VAMTe849dSKOJM6kA&usqp=CAU"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+ <nav class="navbar">
+     <div class="navbar_container">
+         <a href="/" id="navbar_logo"><i class="fas fa-shopping-cart"></i>&nbsp</i> Online store</a>
+         <div class="navbar_toggle" id="mobile-menu">
+             <span class="bar"></span>
+             <span class="bar"></span>
+             <span class="bar"></span>
+         </div>
+         <ul class="navbar_menu">
+         <li class="navbar_item">
+        <a href="/index.html" class="navbar_links">Home</a>
+         </li>
+         <li class="navbar_item">
+            <a href="/New Techno.html" class="navbar_links">New</a>
+            </li>
+            <li class="navbar_item">
+                <a href="/Products.html" class="navbar_links">Products</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/sale.html" class="navbar_links">Sale</a>
+                    </li>
+                <li class="navbar_item">
+                    <a href="/About Us.html" class="navbar_links">Contact</a>
+                    </li>
+                <li class="navbar_btn">
+                    <a href="/sign.html" class="button">Sign Up</a></li>
+         </ul> 
+     </div>   
+ </nav>
+ <div class="main">
+ <div class="main_container">
+<div class="main_content">
+    <h1></h1>
+    <h2></h2>
+    <p></p>
+    <button class="main_btn"></button>
+</div>
+ </div>
+ </div>
+ <script src="app.js"></script>
+<section class="about">
+    <div class="container">
+        <h1 class="title">About Us</h1>
+        <div class="wrapper">
+            <div class="content">
+                <p>Our online store sells woolen and different types of socks,</p>
+                <p>where you can choose socks for yourself or your family for every taste and color.
+                    <br> All products are in stock.
+                    <br>Here are the lowest prices in all of Kazakhstan
+                </p>
+            
+            <div class="social">
+                <h3 class="title">Contact</h3>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <div class="phone">
+                    <span class="fas fa-phone-alt"></span>
+                    <span class="text">+778-470-21-11</span>
+                </div>
+                <div class="email">
+                    <span class="fas fa-envelope"></span>
+                    <span class="text">socks@store.com</span>
+                </div>
+                <div class="address">
+                <h3 class="title">Address</h3>
+                <div class="place">
+                    <span class="fas fa-map-marker-alt"></span>
+                    <span class="text">Kazakstan, Almaty, Street</span>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="image-section">
+                <img src="img/m4.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        line-height: 1.5;
+        
+    }
+    body{
+        min-height: 100vh;
+        width: 100%;
+        background-color: #fff;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        padding-top: 80px;
+    }
+    .container .title{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: black;
+       
+    }
+    .container .title::after{
+        content:"";
+        width: 140px;
+        height: 5px;
+        background-color: #dd3165;
+        border-radius: 10px;
+        display: block;
+    }
+    .wrapper{
+        margin: 40px auto;
+    }
+    .content{
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+    .content p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
+    .content .social{
+        margin-top: 10px;
+    }
+    .content .social a{
+        text-decoration: none;
+        color:rgb(95, 47, 226);
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+    .content .social h3{
+        margin: 30px auto;
+    
+    }
+    .content .social a:hover{ 
+        color: crimson;
+        transition: 1s ease;
+    }
+    .content .phone {
+        margin: 20px auto; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(27, 6, 143);
+    }
+    .content .phone :hover{ 
+        color: crimson;
+        transition: 0.3s ease;
+    }
+    
+    .content .email {
+        margin: 20px auto; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(126, 15, 15);
+    }
+    .content .email :hover{ 
+        color: rgb(27, 116, 119);
+        transition: 0.3s ease;
+    }
+    .content .address {
+        margin: 20px auto; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(27, 6, 143);
+    }
+    .content .address .text{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    .content .social .text{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+  
+    .image-section{
+        width: 45%;
+        float: right;
+    }
+    .image-section img{
+        max-width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width: 900px) {
+        .container{
+            width: 80%;
+            padding-top: 80px;
+        }
+        .container .title{
+            text-align: center;
+        }
+        .container .title::after{
+            display: block;
+            margin: auto;
+        }
+        .content{
+            width: 100%;
+            float: none;
+        }
+       
+        .content .social{
+            margin-top: 30px;
+            text-align: center;
+        }
+        .content .social a{
+            font-size: 20px;
+        }
+        .content .phone{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .content .email{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .image-section{
+            width: 100%;
+            float: none;
+            margin-top: 25px;
+        }
+    }
+</style>
+</body>
+</html>
