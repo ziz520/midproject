@@ -8,34 +8,7 @@ body{
     margin: 0;
     font-family: Tahoma, sans-serif;
 }
-.intro{
-    max-height: 100vh;
-    overflow:hidden;
-    position: relative;
-}
-.intro:after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
-.intro_content{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 3;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 
 .vid{
     position: relative;
